@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+*body{
+   padding: 0%;
+   margin: 0%;
+   left: 0;
+   right: 0;
+   background-color: aqua;
+}
+
+.navbar-section{
+    color:white;
+
+}
+.navbar-brand {
+    font-size: 25px;
+    margin-right: 30px;
+    color: rgb(47, 225, 56);
+}
+#navbarSupportedContent ul li a{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 500;
+}
+.navbar-nav a:hover, .navbar-nav .active > a, .navbar-nav li:hover > a {
+    background: #26298b;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+  }
+
+
+.signup{
+    border-radius: 10px;
+    border-color: aliceblue;
+    padding: 5px;
+    background-color: rgb(66, 167, 95);
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+#navbarSupportedContent ul li{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+  .carousel-inner > .carousel-item > img {
+    height: 100vh;
+    width: 100vh;
+  }
+  .carousel-inner{
+      width:240vh;
+  }
+
+/*---------- steps-----*/
+ .heading-steps{
+     text-align: left;
+     padding-left: 15px;
+ }
+ 
+ #steps > .para >p{
+ text-align: center;
+ }
+ .download img{
+     width: 30%;
+   
+ }
+ .download{  align-items: center;}
+ /*-----------------------signup page-----------*/
+
+.container-form{
+   padding: 0 50px 0 50px;
+   margin:10px 200px 10px 200px;
+  
+}
+ .btn {
+     
+     margin-left:50%;
+     margin-bottom: 10px;
+ }
