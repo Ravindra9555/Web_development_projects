@@ -62,7 +62,7 @@
  text-align: center;
  }
  .download img{
-     width: 30%;
+     width: 20%;
    
  }
  .download{  align-items: center;}
@@ -77,4 +77,12 @@
      
      margin-left:50%;
      margin-bottom: 10px;
+ }
+ #aboutEfood {
+     text-align: center;
+
+
+ }
+ .signupbutton{
+     align-items: flex-end;
  }
