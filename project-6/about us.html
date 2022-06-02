@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="C:\Users\Raj89\OneDrive\Documents\GitHub\Web_development_projects\project-6\style.css">
+    
+
+    
+    <!-- FOR LOGO STYLE -->
+    
+    <style>
+      .fa {
+  padding: 01px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin:1px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: aqua;
+}
+
+      .fa-facebook {
+  /* background: #3B5998; */
+  color: rgb(14, 22, 244);
+}
+    .fa-youtube{
+      color: crimson;
+      }
+
+      .fa-google-plus{
+      color: crimson;
+      }
+
+      body {
+  background-color: rgb(224, 231, 234);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+body{
+	background-color: black;
+	color: #fff;
+	font-family: 'system-ui';
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3.4em;
+}
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+CARD BLOCK
+.card-block{
+	height: 300px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+	
+}
+
+
+      
+    </style>
+
+
+  </head>
+  <body>
+  
+   
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h1>ALUMANI TECH</h1></a>
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html"><h4>HOME</h4></a>
+      </li>
+      <li class="nav-item">
+        
+        <a class="nav-link"  href="#"><h4>TECHNOLOGIES</h4></a> 
+       
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"><h4>ABOUT</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active"  href="blog.html"><h4>BLOG</h4></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#"><h4>CONTACT</h4></a>
+      </li>
+      <!-- FOR LOGO -->
+      <ul>
+        <a href="#" class="fa fa-twitter"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-facebook"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-linkedin"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-youtube"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-google-plus"></a>
+      </ul>
+
+    </ul>
+
+    <span class="badge text-bg-danger"><h2> OUR TECHNOLOGIES</h2></span>
+    <P>TeraCopy is a premium uttility designed as an alternative for the built-in windows Explorer file transfer feature .iTs focus is data intergrity, fill-rule
+      transfer reliability and the ability to pause or resume file transfers.
+      <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+      <p>Finally a machine that can harness the power of even the highest-performance gaming desktop. With upgradeable and overclockable CPU and GPU, the Area-51m is now the world's most powerful* and upgradeable* gaming laptop.</p>
+      <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+      <p>Steamworks is the set of tools and services that help game developers and publishers get the most out of distributing games on Steam.
+
+      </p>
+      <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+      <p>Comprehensive security that blocks malware and hackers. It protects you from threats that traditional antivirus isn't smart enough to stop.
+
+      </p>
+      <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+      
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </P>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+

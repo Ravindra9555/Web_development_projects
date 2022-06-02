@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="C:\Users\Raj89\OneDrive\Documents\GitHub\Web_development_projects\project-6\style.css">
+    
+
+    
+    <!-- FOR LOGO STYLE -->
+    
+    <style>
+      .fa {
+  padding: 01px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin:1px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: aqua;
+}
+
+      .fa-facebook {
+  /* background: #3B5998; */
+  color: rgb(14, 22, 244);
+}
+    .fa-youtube{
+      color: crimson;
+      }
+
+      .fa-google-plus{
+      color: crimson;
+      }
+
+      body {
+  background-color: rgb(224, 231, 234);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+body{
+	background-color: black;
+	color: #fff;
+	font-family: 'system-ui';
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3.4em;
+}
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+CARD BLOCK
+.card-block{
+	height: 300px;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+	
+}
+
+
+      
+    </style>
+
+
+  </head>
+  <body>
+  
+    
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h1>WELCOME ALUMNUS AND ALUMNA</h1></a>
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"><h4>HOME</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about us.html"><h4>ABOUT US</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"><h4>PORTFOLIO</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="blog.html"><h4>FAMOUS ALUMNI</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html"><h4>HISTORY</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html"><h4>CONTACT</h4></a>
+      </li>
+      <!-- FOR LOGO -->
+      <ul>
+        <a href="#" class="fa fa-twitter"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-facebook"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-linkedin"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-youtube"></a>
+      </ul>
+      <ul>
+        <a href="#" class="fa fa-google-plus"></a>
+      </ul>
+
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"  aria-current="true" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"  aria-current="true"  aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="200">
+            <img src="city.img.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>SCHOOL</h2>
+              <p>hogwarts school of witchcraft and wizardry, commonly shortened to Hogwarts is a fictional British school
+                of magic for students aged eleven to eighteen and is the primary setting for the first six books in j.k.
+                Rowling's Harry potter series.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="200">
+            <img src="city.img.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>COMMUNITY</h2>
+              <p>Visit your profile , join a group, see next class notes, volunteer for a cause and much more see more about careers, Alumani Services, Clubs and more.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="200">
+            <img src="city.img.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>PROGRAMS AND EVENTS</h2>
+              <p>Enjoy the music of harry potter in concert, Attend a Harry Potter festival Discover"Breakfast at Hogwarts"
+                or "Hogwarts in the snow or visit the school in Scottish Highlands."
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+      <div>
+        <!-- CONTAINER MAKING DOWN OF IMAGE -->
+        <div class="container marketing my-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <svg class="bd-placeholder-img rounded-circle" width="60" height="60" xmlns=<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+              </svg>  <title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+      
+              <h2 class="fw-normal">SCHOOL</h2>
+              <h9>"Help will be given to everybody who calls for it in Hogwarts." - Albus Dumbledore.</h9>
+              <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <svg class="bd-placeholder-img rounded-circle" width="60" height="60" xmlns=<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+              </svg> <title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+      
+              <h2 class="fw-normal">FORUM</h2>
+              <h9>See what your fellow Alumnis are talking about here.</h9>
+              <p><a class="btn btn-secondary" href="#">FORUM »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            
+            <div class="col-lg-4">
+              <svg class="bd-placeholder-img rounded-circle" width="60" height="60" xmlns=<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+              </svg><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+      
+              <h2 class="fw-normal">FEEDBACK</h2>
+              <h9>Help the uni improve itself and achieve greater magical heights..</h9>
+              <p><a class="btn btn-secondary" href="#">GIVE YOUR FEEDBACK »</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <svg class="bd-placeholder-img rounded-circle" width="60" height="60" xmlns=<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m3 7.5 3.5 2L8 8.75l1.5.75 3.5-2v-6A1.5 1.5 0 0 0 11.5 0h-7A1.5 1.5 0 0 0 3 1.5v6ZM2 3.133l-.941.502A2 2 0 0 0 0 5.4v.313l2 1.173V3.133Zm12 3.753 2-1.173V5.4a2 2 0 0 0-1.059-1.765L14 3.133v3.753Zm-3.693 3.324L16 6.873v6.5l-5.693-3.163Zm5.634 4.274L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM5.693 10.21 0 13.372v-6.5l5.693 3.338ZM8 1.982C9.664.309 13.825 3.236 8 7 2.175 3.236 6.336.31 8 1.982Z"/>
+              </svg> <title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+      
+              <h2 class="fw-normal">REGISTER</h2>
+              <h9>Just graduated from the school? Get your Almuni pass here.</h9>
+              <p><a class="btn btn-secondary" href="#">READ MORE »</a></p>
+            </div>
+          </div><!-- /.row -->
+          
+      
+        </div>
+        
+      </div>
+
+
+
+      <div class="card mb-3" style= "max-height:1080px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="city2.img.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Importance of Alumni Networks.</h3>
+              <p class="card-text" ><small class="text-muted">Today, alumni relations is an important part of an institution's advancement activities for many reasons: Alumni are an institution's most loyal supporters. ... They take their knowledge of your institution to their hometowns and countries and into their professional and social networks</small></p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!-- FOR CARD PURPOSE START -->
+
+      <div class="container-fluid">
+        <h1 class="mt-5"></h1>
+        <p class="subtitle"></p>
+        <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+          
+          <div class="col-5">
+           <h2> ALBUS DUMBLEDORE</h2>
+            <p>Professor Albus Percival Wulfric Brian Dumbledore[1] is a fictional character in J. K. Rowling's Harry Potter series.
+              For most of the series, he is the headmaster of the wizarding school Hogwarts. As part of his backsto t is revealed that he is the founder an
+              leader of the Order of the Phoenix,an organisation dedicated to fighting Lord Voldemort</p>
+          </div>
+          <div class="col-5">
+            <h2>SIRIUS BLACK</h2>
+            <P>Sirius Black (3 November,[9] 1959[10] - 18 June, 1996[4]), also known as Padfoot or Snuffles (in his Animagus form) was a pure-blood wizard, the older son of Orion and Walburga Black, and the brother of RegulusBlack.</P>
+          </div>
+          <div class="col-5">
+            <H2>NEWT SCAMANDER</H2>
+            <P>Newton Artemis[15] Fido[16] "Newt" Scamander, O.M. (Second Class), (b. 24 February[1], 1897[2]) was a famed Magizoologist and author of Fantastic Beasts and Where to Find Them.Early in life Scamander developed an interest in magical Creatures, influenced by his mother's breeding of hippogriffs.</P>
+          </div>
+          <div class="col-5">
+            <H2>MINERVA MCGONAGALL</H2>
+            <P>Professor Minerva McGonagall, O.M. (First Class),[11] (b. 4 October,[1] 1935[2]) was a half-blood witch, the only daughter of Muggle Robert McGonagall and witch Isobel Ross. Minerva was a registered Animagus who attended Hogwarts School of Witchcra crand Wizardry from 1947 1954 and was Sorted into Gryffindor House (but it took the sorting hat 5 12 minutes to decide if she was Gryffindor or Ravenclaw, therefore making her a Hatstall).</P>
+          </div>
+          <div class="col-5">
+            <H2>SEVERUS SNAPE</H2>
+            <P>Professor Severus Snape (9 January,1960[1]-2 May, 1998[2]) was a half blood[3] wizard serving as Potions Master (1981-1996), Defence Against the Dark Arts professor (1996-1997), and Headmaster (1997-1998) of the Hogwarts School of Witchcraft and Wizardry as well as a member of the Order of the Phoenix and a Death</P>
+          </div>
+          <div class="col-5">
+            <H2>DRACO MALFOY</H2>
+            <P>Draco Lucius[8] Malfoy (b. 5 June,1980) was a pure-blood wizard and the only son of Lucius and Narcissa Malfoy (née Black).</P>
+          </div>
+          <div class="col-5">
+            <H2>HERMIONE GRANGER</H2>
+            <P>Minister Hermione Jean[18] Granger (b. 19 September, 1979[1]) was a Muggle-born[19] witch born to Mr and Mrs Granger, both dentists. Hermione possessed a brilliant academic mind, and proved to be a gifted student in almost every subject that she studied.</P>
+          </div>
+          <div class="col-5">
+            <H2>REMUS LUPIN</H2>
+            <P>Professor Remus John[3] Lupin, O.M. (First Class), (10 March, 1960-2 May, 1998), also known as Moony, was a half-blood wizard and the only son of Lyall and Hope Lupin (née Howell).</P>
+          </div>
+          <div class="col-5">
+            <H2>TOM MARVOLO RIDDLE</H2>
+            <P>Tom Marvolo Riddle (31 December, 1926[11] -2 May, 1998), later known as Lord Voldemort or alternatively as You-Know-Who, He-Who-Must-Not Be-Named, or the park Lord, was a half-blood wizard & sidered to have been the most powerful and dangerous dark wizard of all time.</P>
+          </div>
+          
+        </div>
+    </div>
+      <!-- LAST CARD CLOSE -->
+
+    </ul>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
