@@ -1,0 +1,15 @@
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+.heading h3{
+    margin: 20px;
+    color: white;
+}
+.heading p{
+    margin-left:20px;
+    color: white;
+}
+.card-deck{
+    margin:0 10px 0 10px;
+}
