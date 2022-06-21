@@ -8,7 +8,7 @@
  <img src="img/project22.png" >
  <h3> Project-2<h3>
  <br>
- <img src="img/project11x.png" >
+ <img src="img/project11.png" >
  <h3> Project-3<h3>
  <br>
  <img src="img/project33.png" >
