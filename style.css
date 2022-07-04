@@ -13,3 +13,8 @@
 .card-deck{
     margin:0 10px 0 10px;
 }
+.brandname{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
